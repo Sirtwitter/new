@@ -32,6 +32,7 @@
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.4.1",
     "simple-cbor": "0.4.1"
+    yarn add dfx-generated/CanCan.
   },
   "devDependencies": {
     "@craco/craco": "^6.0.0",
