@@ -82,6 +82,13 @@
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx,json,css,scss,md}": [
       "prettier --write"
+      {
+  "name": "cancan",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prebuild": "jest"
+  }
+}
     ]
   }
 }
